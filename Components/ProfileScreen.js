@@ -587,7 +587,7 @@ export default function ProfileScreen() {
                 </TouchableOpacity>
               ))}
             </ScrollView>
-d          </View>
+          </View>
         </View>
       </Modal>
 

@@ -374,7 +374,7 @@ export default function MissionDetailsScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
       <ScrollView
-        contentContainerStyle={[styles.scroll, { paddingTop: insets.top + 12, paddingBottom: insets.bottom + TOTAL_TAB_BAR_HEIGHT + 120 }]}
+        contentContainerStyle={[styles.scroll, { paddingTop: insets.top + 12, paddingBottom: insets.bottom + TOTAL_TAB_BAR_HEIGHT + 250 }]}
         showsVerticalScrollIndicator={false}>
         {/* back */}
         <TouchableOpacity style={styles.backBtn} onPress={() => navigation.goBack()} activeOpacity={0.7}>
