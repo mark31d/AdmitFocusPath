@@ -69,7 +69,7 @@ const WEEK_HEADERS = ['M', 'T', 'W', 'T', 'F', 'S', 'S'];
 /* ── settings items ── */
 const SETTINGS_ITEMS = [
   { icon: IMG.target, label: 'Notifications', desc: 'Remind me about tasks' },
-  { icon: IMG.anchor, label: 'About AdmiralFocus', desc: 'Version 1.0.0' },
+  { icon: IMG.anchor, label: 'About Admit Focus Path', desc: 'Version 1.0.0' },
   { icon: IMG.star, label: 'Privacy', desc: 'Coming soon' },
 ];
 
@@ -599,12 +599,12 @@ export default function ProfileScreen() {
         onRequestClose={() => setShowAboutModal(false)}>
         <View style={styles.modalOverlay}>
           <View style={styles.modalCard}>
-            <Text style={styles.modalTitle}>About AdmiralFocus</Text>
+            <Text style={styles.modalTitle}>About Admit Focus Path</Text>
             
             <ScrollView style={styles.aboutScrollView} showsVerticalScrollIndicator={false}>
               <View style={styles.aboutContent}>
                 <Text style={styles.aboutDescription}>
-                  AdmiralFocus is your personal mission management companion designed to help you stay focused, productive, and achieve your daily goals. Navigate through your tasks like a true captain, track your progress, and earn rewards as you complete missions.
+                  Admit Focus Path is your personal mission management companion designed to help you stay focused, productive, and achieve your daily goals. Navigate through your tasks like a true captain, track your progress, and earn rewards as you complete missions.
                 </Text>
 
                 <Text style={styles.aboutSectionTitle}>Features:</Text>
